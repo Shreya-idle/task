@@ -1,0 +1,60 @@
+# ========================
+# Dependencies
+# ========================
+node_modules/
+
+# ========================
+# Sensitive / Secret Files (NEVER COMMIT)
+# ========================
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+.env*.local
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+*.der
+*.csr
+*.jks
+*.keystore
+serviceAccountKey.json
+*firebase*.json
+*secret*
+*credential*
+*credentials*
+*api_key*
+*apikey*
+*private_key*
+*access_token*
+*auth_token*
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
+npm-debug.log*
+
+# ========================
+# Test artifacts
+# ========================
+coverage/
+*.txt
+
+# ========================
+# Vercel
+# ========================
+.vercel/
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+.vercel
